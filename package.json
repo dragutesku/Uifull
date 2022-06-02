@@ -1,0 +1,32 @@
+{
+  "name": "uifull",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo test",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "bootstrap": "lerna bootstrap",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "babel-loader": "^8.2.2",
+    "lerna": "^3.22.1",
+    "plop": "^2.7.4",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "core-js": "^3.18.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.1.0"
+}

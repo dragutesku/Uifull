@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/library.esm.js"></script>
+    <script nomodule src="/build/library.js"></script>
+  </head>
+  <body>
+    <uifull-header
+      company="UiFull" 
+      logourl="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+      userlogourl="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg">
+      <!-- Navigation -->
+      <a slot="navigation-link" class="anchor" href="/">Home</a>
+      <a slot="navigation-link" class="anchor" href="/posts">Posts</a>
+      <a slot="navigation-link" class="anchor" href="/posts">Posts</a>
+
+      <!-- User Nav -->
+      <a slot="user-link" class="anchor" href="/">Home</a>
+      <a slot="user-link" class="anchor" href="/posts">Posts</a>
+      <a slot="user-link" class="anchor" href="/posts">Posts</a>
+    </uifull-header>
+    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+  </body>
+</html>

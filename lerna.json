@@ -1,0 +1,23 @@
+{
+  "packages": [
+    "packages/*"    
+  ],
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master",
+        "prod"
+      ]
+    },
+    "publish": {
+      "message": "chore: release",
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    }
+  },
+  "useWorkspaces": true,
+  "npmClient": "npm",
+  "version": "0.0.0"
+}
