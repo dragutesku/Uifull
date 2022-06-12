@@ -1,8 +1,0 @@
-node_modules/
-public/
-src/
-package-lock.json
-.gitignore
-tsconfig.json
-.vscode/
-.DS_Store
