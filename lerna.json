@@ -6,6 +6,7 @@
     "version": {
       "allowBranch": [
         "master",
+        "main",
         "prod"
       ]
     },
@@ -19,5 +20,5 @@
   },
   "useWorkspaces": true,
   "npmClient": "npm",
-  "version": "0.0.0"
+  "version": "8.1.0"
 }
